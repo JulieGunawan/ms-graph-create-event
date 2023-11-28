@@ -28,9 +28,9 @@ async function run() {
         let extraInfo: string = `<br/>Request submitted around ${format(new Date(), 'dd-MMM-yyyy hh:mm')}`;
 
         console.log("Setting up graph...");
-        console.log("tenant name= ",tenantName);
-        console.log("app id= ",appId);
-        console.log("app secret= ",appSecret);
+        console.log("tenant name= ");
+        console.log("app id= ");
+        console.log("app secret= ");
         
         graph.setup({
             graph: {
