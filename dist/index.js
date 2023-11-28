@@ -64823,7 +64823,7 @@ var Constants = {
       //INSTANCE_DISCOVERY_ENDPOINT_TEMPLATE : 'https://{authorize_host}/common/discovery/instance?authorization_endpoint={authorize_endpoint}&api-version=1.0',
       INSTANCE_DISCOVERY_ENDPOINT_TEMPLATE : 'https://{authorize_host}/common/discovery/instance?authorization_endpoint={authorize_endpoint}&api-version=2.0',
       AUTHORIZE_ENDPOINT_PATH : '/oauth2/authorize',
-      TOKEN_ENDPOINT_PATH : '/oauth2/v2.0/token', 
+      TOKEN_ENDPOINT_PATH : '/oauth2/token', 
       DEVICE_ENDPOINT_PATH : '/oauth2/devicecode'
     },
 
